@@ -1,0 +1,22 @@
+.homeBackGround {
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url('../../images/library-img.jpg') center/cover no-repeat;
+}
+.content {
+    min-height: 75vh;
+    color: #fff;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 4.2rem;
+}
+
+.prg {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 1.3rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+}
+

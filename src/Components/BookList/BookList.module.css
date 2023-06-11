@@ -1,0 +1,75 @@
+.booklist {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+}
+.booklistContent {
+    gap: 3rem;
+}
+.bookItem {
+    padding: 3rem 2rem;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 15px 0px;
+    transition: all;
+}
+.bookItem:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.fSize {
+    font-size: 1.5rem!important;
+}
+.fWhite {
+    font-weight: 700;
+}
+.fSiiize {
+    font-size: 1.8rem;
+}
+.bookItemImg img {
+    max-width: 180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bookInfo {
+    margin-top: 2rem;
+}
+.title {
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+}
+.author {
+    line-height: 1.4;
+    margin-bottom: 4px;
+}
+.bookInfoItem:not(.bookInfoItem.title) span:last-child {
+    opacity: 0.8;
+}
+.puYear {
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 14px;
+}
+@media screen and (min-width: 600px) {
+    .booklistContent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .booklistContent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .bookItemImg img {
+        max-width: 150px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .booklistContent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .bookItemImg img {
+        max-width: 120px;
+    }
+}

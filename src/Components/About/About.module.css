@@ -1,0 +1,44 @@
+.about {
+    padding: 3rem 0;
+}
+
+.aboutContent {
+    gap: 4rem;
+}
+
+.aboutTitle {
+    margin: 1rem 0;
+}
+
+.aboutImg img {
+    max-width: 520px;
+}
+
+.aboutText p {
+    margin: 1.8rem 0;
+    opacity: 0.8;
+}
+
+.fsfs {
+    font-size: 1.7rem;
+}
+
+.aboutTit {
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+}
+
+
+@media screen and (min-width: 800px) {
+    .aboutContent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .aboutTitle {
+        margin-top: 0;
+    }
+
+    .aboutImg img {
+        margin-left: 0;
+    }
+}
