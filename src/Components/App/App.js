@@ -12,7 +12,8 @@ export default class App extends Component {
       <>
       <Navbar />
         <Routes>
-          <Route path='Bookhub' element={<Home />}>
+          <Route path='Bookhub' element={<Home />}></Route>
+          <Route path='/' element={<Home />}> 
             <Route path='about' element={<About />}></Route>
             <Route path='book' element={<BookList />}></Route>
             <Route path='book/:id' element={<BookDetails />}></Route>
